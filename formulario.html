@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Coleta de dados</h1>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="Codigo">Código:</label>
+            <input type="number" style="width: 40px;"/>
+            <p></p>
+            <label for="nome">Nome:</label>
+            <input type="text"/>
+            <p></p>
+            <label for="Senha">Senha:</label>
+            <input type="password">
+            <p></p>
+            <label for="Sexo">Sexo:</label>
+            <label for="Sexo"><input id="Sexo" name="Sexo" type="radio">Masculino</label>
+            <label for="Sexo"><input id="Sexo" name="Sexo" type="radio">Feminino</label>
+            <p></p>
+            <label for="Idade">Idade:</label>
+            <input type="number" style="width: 40px;">
+            <p></p>
+            <label for="">Cartão Credito:</label>
+            <br>
+            <select name="" id="">
+            <option value="Mastercard">Mastercard</option>
+            <option value="Visa">Visa</option>
+            <option value="American Express">American Express</option>
+            </select>
+            <p></p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label for="cargo">Cargo:</label>
+            <select name="" id="">
+                <option value="Analista Junior">Analista Junior</option>
+                <option value="Analista Pleno">Analista Pleno</option>
+                <option value="Analista Sênior">Analista Sênior</option>
+            </select>
+            <p></p>
+            <label for="Dados pessoais">Dados pessois:</label>
+            <p></p>
+
+            <label for="Fumante">
+            <input type="checkbox" name="fuma?" id="Fumante">Fumante
+            </label>
+            <p></p>
+        
+            <label for="Atletico">
+            <input type="checkbox" name="Atletico?" id="Atletico">Pratica exercicio Fisico
+            </label>
+            <p></p>
+
+            <label for="Bebe">
+            <input type="checkbox" name="Bebe?" id="Bebe">Consome Bebida Alcoólica
+            </label>
+            <p></p>
+
+            <label for="cargo">Cargo:</label>
+            <p></p>
+            <textarea  placeholder="Data inicio / Data fim  Empresa / Cargo" style="height: 50px;"></textarea>
+            <p></p>
+            <label for="buttons">
+                <input type="reset" name="limpaForm" id="limpaForm">
+                <input type="submit" name="envia" id="envia">
+            </label>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
