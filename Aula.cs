@@ -6,7 +6,7 @@ namespace PrimeiroProjeto
     {
         static void Main(string[] args)
     {
-        Console.WhriteLine("Eai fih");    
+        Console.WhriteLine("Eai pae");    
     }
 
     }
